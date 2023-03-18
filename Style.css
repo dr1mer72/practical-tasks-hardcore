@@ -1,0 +1,58 @@
+/* Убираем рамки у картинок на странице */
+img {
+  border: none;
+}
+
+/* Футуристический фон для страницы */
+body {
+  background: linear-gradient(135deg, #D34AFF, #A900FF, #1EAEF8);
+}
+
+/* Стиль для заголовков */
+h1, h2, h3 {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* Стиль для ссылок */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Стиль для кнопок */
+.button {
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+/* Стиль для иконок */
+.icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+/* Стиль для контейнера профиля */
+.profile {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Стиль для фото профиля */
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
